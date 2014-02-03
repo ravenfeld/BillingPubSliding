@@ -10,7 +10,7 @@ Please check out the [project](https://github.com/ravenfeld/BillingPubSliding/tr
 
  You have to [download it](https://github.com/ravenfeld/Android-ViewPagerIndicator/archive/master.zip) 
  
- You have to [download it](https://github.com/ravenfeld/AndroidBillingLibrary/archive/my-master.zip) 
+ You have to [download it](https://github.com/ravenfeld/AndroidBillingLibrary/archive/master.zip) 
  
  Import the **BillingPubSliding** folder in your IDE.
  
