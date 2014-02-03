@@ -71,7 +71,6 @@ public class PageBillingFragment extends AbstractBillingFragment {
     public void onPurchaseStateChanged(String id_product, Transaction.PurchaseState status) {
         if (id_product.equalsIgnoreCase(ID_PRODUCT) && status == Transaction.PurchaseState.PURCHASED) {
             purchasedApp();
-Log.e("TEST", "Finish");
                getActivity().finish();
 
         } else {
@@ -83,10 +82,7 @@ Log.e("TEST", "Finish");
     public void onRequestPurchaseResponse(String id_product, BillingRequest.ResponseCode code) {
         if (id_product.equalsIgnoreCase(ID_PRODUCT) && code == BillingRequest.ResponseCode.RESULT_OK) {
             purchasedApp();
-            Log.e("TEST", "Finish");
-
-                getActivity().finish();
-
+            getActivity().finish();
         } else {
             canceledApp();
         }
